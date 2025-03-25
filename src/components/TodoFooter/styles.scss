@@ -1,0 +1,43 @@
+.todo-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-top: 1px solid #e6e6e6;
+
+    .filters {
+        display: flex;
+        margin-left: 6px;
+        gap: 10px;
+
+        button {
+            padding: 5px 10px;
+            border: none;
+            border-radius: 4px;
+            background-color: #f0f0f0;
+            cursor: pointer;
+
+            &.active {
+                background-color: #61dafb;
+                color: #fff;
+            }
+
+            &:hover {
+                background-color: #21a1f1;
+                color: #fff;
+            }
+        }
+    }
+
+    .clear-completed {
+        border: none;
+        background: none;
+        color: #888;
+        cursor: pointer;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

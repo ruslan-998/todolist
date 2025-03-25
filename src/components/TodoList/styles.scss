@@ -1,0 +1,16 @@
+.todo-container {
+    width: 700px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+    text-align: center;
+
+    h1 {
+        font-size: 100px;
+        font-weight: 100;
+        color: rgba(175, 47, 47, 0.15);
+        margin: 20px 0;
+    }
+}

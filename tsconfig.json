@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "jsx": "react-jsx",
+      "module": "commonjs",
+      "target": "es6",
+      "esModuleInterop": true,
+      "allowJs": true,
+      "skipLibCheck": true,
+      "strict": true,
+      "noEmit": false,
+      "types": ["jest", "@testing-library/jest-dom"],
+      "baseUrl": "src",
+      "paths": {
+       "components/*": ["components/*"]
+    }
+    },
+    "include": ["src/**/*", "tests/**/*"]
+  }
+  
