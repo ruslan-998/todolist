@@ -25,7 +25,7 @@ module.exports = {
     mode: mode,
     target: target,
 
-    entry: "./src/index.tsx", // Измените на .tsx для TypeScript
+    entry: "./src/index.tsx",
 
     output: {
         path: path.resolve(__dirname, "dist"),
@@ -55,7 +55,7 @@ module.exports = {
                 }
             },
             {
-                test: /\.tsx?$/, // Добавьте правило для TypeScript
+                test: /\.tsx?$/,
                 exclude: /node_modules/,
                 use: "ts-loader"
             }
@@ -63,7 +63,7 @@ module.exports = {
     },
 
     resolve: {
-        extensions: [".ts", ".tsx", ".js", ".jsx"] // Добавьте .ts и .tsx
+        extensions: [".ts", ".tsx", ".js", ".jsx"]
     },
 
     plugins: plugins,
